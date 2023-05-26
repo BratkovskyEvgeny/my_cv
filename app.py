@@ -3,7 +3,7 @@ from PIL import Image
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-image = Image.open('photo.JPG')
+image = Image.open('photo-round.png')
 st.image(image, width=205)
 st.write('''
 # Bratkovsky Evgeny
