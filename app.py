@@ -122,7 +122,7 @@ st.markdown('''
 #txt3('`Python`, `Javascript`,`SQL`,`Streamlit`,`Flask`,`AWS`, `TensorFlow`,`PyTorch`,`Docker`,`PL\SQL Developer`,`NLP`,`Computer Vision`, `Scoring models & many others`')
 
 st.markdown('''
-## Skills
+## *Skills*
 ''')
 txt3('Programming', '`Python`, `Javascript`')
 txt3('Data processing/wrangling', '`SQL`, `Pandas`, `Numpy`')
