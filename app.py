@@ -115,8 +115,7 @@ st.markdown('''
 st.markdown('''
 ## Skills
 ''')
-txt3('`Python`, `Javascript`,'`SQL`,`Streamlit`,`Flask`,`AWS`, `TensorFlow`,`PyTorch`,`Docker`,`PL\SQL Developer`,`NLP`,`Computer Vision`, 
-`Scoring models & many others`')
+txt3('`Python`, `Javascript`,`SQL`,`Streamlit`,`Flask`,`AWS`, `TensorFlow`,`PyTorch`,`Docker`,`PL\SQL Developer`,`NLP`,`Computer Vision`, `Scoring models & many others`')
 
 
 
