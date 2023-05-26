@@ -9,7 +9,7 @@ image = Image.open('photo-round.png')
 
 
 col1, col2, col3 = st.columns(3)
-col2.image(image, width=250)
+col2.image(image, use_column_width=True)
 
 
 
