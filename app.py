@@ -5,7 +5,7 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 image = Image.open('photo-round.png')
 st.image(image, width=200)
-st.markdown("<h1 style='text-align: center; '>:orange[Bratkovsky Evgeny] (:orange[Data Scientist],:orange[MSc Software Engineering])</h1>", unsafe_allow_html = True)
+st.markdown("<h1 style='text-align: center; '>Bratkovsky Evgeny (Data Scientist, MSc Software Engineering)</h1>", unsafe_allow_html = True)
 #st.title(':orange[Bratkovsky Evgeny] (:orange[Data Scientist],:orange[MSc Software Engineering])')
 #st.title(':red[MSc Software Engineering]')
 #st.write('''
