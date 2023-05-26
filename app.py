@@ -86,13 +86,13 @@ st.markdown('''
 ## *Education*
 ''')
 
-txt('**MSc Software Engineering**, *Belarusian State University of Informatics and Radioelectronics*, Belarus','2020-2022')
+txt('**MSc Software Engineering**, Belarusian State University of Informatics and Radioelectronics, Belarus','2020-2022')
 st.markdown('''
 - Average grade: `9` from `10`
 - Defended MSc thesis on credit scoring models and algorithms based on neural networks.
 ''')
 
-txt('**Bachelor degree in Finance & credit**, *Belarusian State Economic University*, Belarus','2009-2014')
+txt('**Bachelor degree in Finance & credit**, Belarusian State Economic University, Belarus','2009-2014')
 st.markdown('''
 - Average grade: `7` from `10`.
 ''')
@@ -101,7 +101,7 @@ st.markdown('''
 ## *Work Experience in IT*
 ''')
 
-txt('**Business Analyst/Data Scientist**, Priorbank, Belarus', '06.2021 — 06.2023')
+txt('**Business Analyst/Data Scientist**, Priorbank, Belarus','06.2021 — 06.2023')
 st.markdown('''
 - Creating models for segmenting bank customers, predicting churn, scoring and many others.
 - Organised a Data Science course for bank staff as part of the bank's IT Academy.
@@ -109,7 +109,7 @@ st.markdown('''
 - Data processing and transfer to cloud hosting was automated.
 ''')
 
-txt('**Senior Internal Audit Specialist**, Belinvestbank, Belarus', '04.2018 — 06.2021')
+txt('**Senior Internal Audit Specialist**, Belinvestbank, Belarus','04.2018 — 06.2021')
 st.markdown('''
 - Audit of the business processes of the bank, improvement of the IT processes.
 ''')
