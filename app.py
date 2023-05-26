@@ -34,7 +34,7 @@ def img_to_html(img_path):
     )
     return img_html
 
-st.markdown(<p style='text-align: center; color: grey;'>"+img_to_html('photo-round.png')+"</p>", unsafe_allow_html=True)
+st.markdown(<p> style='text-align: center; color: grey;'>"+img_to_html('photo-round.png')+"</p>", unsafe_allow_html=True)
     
 
 
