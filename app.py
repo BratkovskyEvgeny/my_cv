@@ -4,9 +4,12 @@ from PIL import Image
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 image = Image.open('photo-round.png')
-col1=st.columns(1)
-with col1:
+left_co, cent_co,last_co = st.columns(3)
+with cent_co:
     st.image(image)
+
+
+
     
 
 #st.image(image, width=155)
