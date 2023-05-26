@@ -86,7 +86,7 @@ st.markdown('''
 - Defended MSc thesis on credit scoring models and algorithms based on neural networks.
 ''')
 
-txt('**Bachelor's degree** (Finance and credit), *Belarusian State Economic University*, Belarus',
+txt('**Bachelor degree** (Finance and credit), *Belarusian State Economic University*, Belarus',
 '2009-2014')
 st.markdown('''
 - Average grade: `7` from `10`.
