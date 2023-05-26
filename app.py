@@ -10,7 +10,7 @@ with open("style.css") as f:
 with open("photo-round.png", "rb") as f:
     data = base64.b64encode(f.read()).decode("utf-8")
 
-    st.sidebar.markdown(
+    st.markdown(
         f"""
         <div style="display:table;margin-top:-20%;margin-left:20%;">
             <img src="data:image/png;base64,{data}" width="100" height="150">
