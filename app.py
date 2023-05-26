@@ -6,7 +6,7 @@ with open("style.css") as f:
 image = Image.open('photo-round.png')
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
-    st.image(image)
+    st.image(image, width=150)
 
 
 
