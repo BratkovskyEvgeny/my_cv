@@ -121,6 +121,15 @@ st.markdown('''
 ''')
 txt3('`Python`, `Javascript`,`SQL`,`Streamlit`,`Flask`,`AWS`, `TensorFlow`,`PyTorch`,`Docker`,`PL\SQL Developer`,`NLP`,`Computer Vision`, `Scoring models & many others`')
 
-
+st.markdown('''
+## Skills
+''')
+txt3('Programming', '`Python`, `R`, `Linux`')
+txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
+txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `altair`, `ggplot2`')
+txt3('Machine Learning', '`scikit-learn`')
+txt3('Deep Learning', '`TensorFlow`')
+txt3('Web development', '`Flask`, `HTML`, `CSS`')
+txt3('Model deployment', '`streamlit`, `gradio`, `R Shiny`, `Heroku`, `AWS`, `Digital Ocean`')
 
 
