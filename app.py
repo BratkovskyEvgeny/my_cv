@@ -21,7 +21,7 @@ st.markdown('## *About me*', unsafe_allow_html=True)
 #*I'm a Data Scientist. Basically, I'm like a pathologist, but doing autopsies on different data*:). 
 #*I have a lot of experience working in banks in different positions and I have a good understanding of almost all banking business processes, which helps me a lot when I build models to develop the banking business*.
 #''')
-st.write('I am a Data Scientist at a bank. Basically, I am like a pathologist, but doing autopsies on different data :sunglasses:. I have a lot of experience working in banks in different positions and I have a good understanding of almost all banking business processes, which helps me a lot when I build models to develop the banking business. ')
+st.write('I am a Data Scientist. Basically, I am like a pathologist, but doing autopsies on different data :sunglasses:. I have a lot of experience working in banks in different positions and I have a good understanding of almost all banking business processes, which helps me a lot when I build models to develop the banking business. ')
 
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
