@@ -27,23 +27,23 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #cb9216;">
-  <a class="navbar-brand" href="https://www.linkedin.com/in/evgeny-bratkovsky555-847ab6181/" target="_blank">Bratkovsky Evgeny</a>
+  <a class="navbar-brand" href="https://www.linkedin.com/in/evgeny-bratkovsky555-847ab6181/" target="_blank">*Bratkovsky Evgeny*</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link disabled" href="/">*Home* <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#education">*Education*</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#work-experience">Work Experience</a>
+        <a class="nav-link" href="#work-experience">*Work Experience*</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact with me</a>
+        <a class="nav-link" href="#contact">*Contact with me*</a>
       </li>
     </ul>
   </div>
