@@ -42,6 +42,9 @@ st.markdown("""
       <li class="nav-item">
         <a class="nav-link" href="#work-experience">Work Experience in IT</a>
       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact with me</a>
       </li>
