@@ -124,7 +124,7 @@ st.markdown('''
 st.markdown('''
 ## Skills
 ''')
-txt3('Programming', '`Python`, `Javascript`)
+txt3('Programming', '`Python`, `Javascript`')
 txt3('Data processing/wrangling', '`SQL`, `Pandas`, `Numpy`')
 txt3('Data visualization', '`Apache Superset`,`Tableau`,`Matplotlib`, `Seaborn`, `Plotly`, `Altair`')
 txt3('Machine Learning', '`Scikit-learn`,`Catboost`,`XGBoost`,`Logistic Regression`, `Random Forest`,`DBSCAN and many others`')
