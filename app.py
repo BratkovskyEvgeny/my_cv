@@ -9,8 +9,8 @@ st.write('''
 ##### *CV* 
 ''')
 
-image = Image.open('photo.jpg')
-st.image(image, width=200)
+image = Image.open('photo.JPG')
+st.image(image, width=155)
 
 st.markdown('## About me', unsafe_allow_html=True)
 st.info('''
