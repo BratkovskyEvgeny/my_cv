@@ -46,7 +46,7 @@ st.markdown("""
         <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact with me</a>
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -132,7 +132,7 @@ txt3('Model deployment', '`Streamlit`, `Gradio`,`Flask`')
 
 
 st.markdown('''
-## Contact with me
+## Contact
 ''')
 contact_form = """
 <form action="https://formsubmit.co/zhenyabratkovski5@gmail.com" method="POST">
