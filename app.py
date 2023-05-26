@@ -100,7 +100,7 @@ st.markdown('''
 ## *Work Experience in IT*
 ''')
 
-txt('**Business Analyst/Data Scientist**, Priorbank, Minsk, Belarus',
+txt('**Business Analyst/Data Scientist**, Priorbank, Belarus',
 '06.2021 — 06.2023')
 st.markdown('''
 - Creating models for segmenting bank customers, predicting churn, scoring and many others.
@@ -109,7 +109,7 @@ st.markdown('''
 - Data processing and transfer to cloud hosting was automated.
 ''')
 
-txt('**Senior Internal Audit Specialist**, Belinvestbank, Minsk, Belarus',
+txt('**Senior Internal Audit Specialist**, Belinvestbank, Belarus',
 '04.2018 — 06.2021')
 st.markdown('''
 - Audit of the business processes of the bank, improvement of the IT processes.
