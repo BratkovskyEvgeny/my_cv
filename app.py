@@ -7,16 +7,16 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 image = Image.open('photo-round.png')
 
-col1, col2, col3 = st.columns(3)
 
-with col1:
-    st.write("")
 
-with col2:
-    st.image(image)
 
-with col3:
-    st.write("")
+
+
+
+
+
+
+
 
 
 
@@ -34,7 +34,7 @@ def img_to_html(img_path):
     )
     return img_html
 
-st.markdown("<p> style='text-align: center; color: grey;'>"+img_to_html('photo-round.png')+"</p>", unsafe_allow_html=True)
+st.markdown(img_to_html('photo-round.png'), unsafe_allow_html=True)
     
 
 
