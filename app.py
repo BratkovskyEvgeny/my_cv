@@ -6,7 +6,7 @@ with open("style.css") as f:
 image = Image.open('photo-round.png')
 st.image(image, width=200)
 st.title(':orange[Bratkovsky Evgeny]')
-st.title(':orange[MSc Software Engineering]')
+st.title(':red[MSc Software Engineering]')
 #st.write('''
 # *Bratkovsky Evgeny*
 ## *MSc Software Engineering* 
