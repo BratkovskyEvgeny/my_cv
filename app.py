@@ -7,7 +7,7 @@ image = Image.open('photo-round.png')
 st.image(image, width=205)
 st.write('''
 # *Bratkovsky Evgeny*
-### *MSc Software Engineering* 
+## *MSc Software Engineering* 
 ''')
 
 
