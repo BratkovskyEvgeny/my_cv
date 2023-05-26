@@ -3,14 +3,14 @@ from PIL import Image
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
+image = Image.open('photo.JPG')
+st.image(image, width=155)
 st.write('''
 # Bratkovsky Evgeny, MSc Software Engineering
 ##### *CV* 
 ''')
 
-image = Image.open('photo.JPG')
-st.image(image, width=155)
+
 
 st.markdown('## About me', unsafe_allow_html=True)
 st.info('''
