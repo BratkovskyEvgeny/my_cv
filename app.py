@@ -6,8 +6,8 @@ with open("style.css") as f:
 image = Image.open('photo-round.png')
 st.image(image, width=205)
 st.write('''
-# Bratkovsky Evgeny
-# MSc Software Engineering 
+# *Bratkovsky Evgeny, MSc Software Engineering*
+#  
 ''')
 
 
