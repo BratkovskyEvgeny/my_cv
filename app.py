@@ -7,7 +7,7 @@ image = Image.open('photo-round.png')
 st.image(image, width=200)
 #st.markdown("<h1 style='text-align: center; '>Bratkovsky Evgeny (Data Scientist, MSc Software Engineering)</h1>", unsafe_allow_html = True)
 st.title(':orange[Bratkovsky Evgeny]')
-st.markdown('#:orange[Data Scientist],:orange[MSc Software Engineering]')
+#st.markdown('#:orange[Data Scientist],:orange[MSc Software Engineering]')
 #st.title(':red[MSc Software Engineering]')
 #st.write('''
 # *Bratkovsky Evgeny*
@@ -16,7 +16,7 @@ st.markdown('#:orange[Data Scientist],:orange[MSc Software Engineering]')
 
 
 
-st.markdown('## About me', unsafe_allow_html=True)
+st.markdown('## *About me*', unsafe_allow_html=True)
 st.info('''
 I'm a machine learning engineer at a bank. Basically, I'm like a pathologist, but doing autopsies on different data :). 
 I have a lot of experience working in banks in different positions and I have a good understanding of almost all banking business processes, which helps me a lot when I build models to develop the banking business.
@@ -80,7 +80,7 @@ def txt4(a, b, c):
 
 
 st.markdown('''
-## Education
+## *Education*
 ''')
 
 txt('**MSc Software Engineering**, *Belarusian State University of Informatics and Radioelectronics*, Belarus',
@@ -97,7 +97,7 @@ st.markdown('''
 ''')
 
 st.markdown('''
-## Work Experience in IT
+## *Work Experience in IT*
 ''')
 
 txt('**Business Analyst/Data Scientist**, Priorbank, Minsk, Belarus',
@@ -117,7 +117,7 @@ st.markdown('''
 
 
 st.markdown('''
-## Skills
+## *Skills*
 ''')
 txt3('`Python`, `Javascript`,`SQL`,`Streamlit`,`Flask`,`AWS`, `TensorFlow`,`PyTorch`,`Docker`,`PL\SQL Developer`,`NLP`,`Computer Vision`, `Scoring models & many others`')
 
