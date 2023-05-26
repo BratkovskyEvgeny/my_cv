@@ -9,7 +9,7 @@ st.write('''
 # *Bratkovsky Evgeny*
 ## *MSc Software Engineering* 
 ''')
-
+st.markdown(”:red[Bratkovsky Evgeny], :blue[MSc Software Engineering]”)
 
 
 st.markdown('## About me', unsafe_allow_html=True)
