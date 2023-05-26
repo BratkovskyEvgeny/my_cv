@@ -79,7 +79,7 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Master's degree** (Software Engineering), *Belarusian State University of Informatics and Radioelectronics*, Belarus',
+txt('**MSc Software Engineering**, *Belarusian State University of Informatics and Radioelectronics*, Belarus',
 '2020-2022')
 st.markdown('''
 - Average grade: `9` from `10`
