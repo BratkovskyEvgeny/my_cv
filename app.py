@@ -17,7 +17,7 @@ with open("style.css") as f:
      #   </div>
     #    """,
     #    unsafe_allow_html=True,
-    )
+    #)
 #col1, col2, col3 = st.columns([0.2, 5, 0.2]) 
 #col2.image(image, use_column_width=True)
 
