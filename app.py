@@ -8,13 +8,13 @@ image = Image.open('photo-round.png')
 col1, col2, col3 = st.columns(3)
 
 with col1:
-st.write("")
+    st.write("")
 
 with col2:
-st.image(image)
+    st.image(image)
 
 with col3:
-st.write("")
+    st.write("")
 
 
 
