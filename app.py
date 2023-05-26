@@ -101,7 +101,7 @@ st.markdown('''
 ''')
 
 st.markdown('''
-## Work Experience
+## *Work Experience*
 ''')
 
 txt('**Business Analyst/Data Scientist**, Priorbank, Belarus','06.2021 — 06.2023')
