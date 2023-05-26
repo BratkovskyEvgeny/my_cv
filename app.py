@@ -7,16 +7,16 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 #image = Image.open('photo-round.png')
 
-with open("photo-round.png", "rb") as f:
-    data = base64.b64encode(f.read()).decode("utf-8")
+#with open("photo-round.png", "rb") as f:
+   # data = base64.b64encode(f.read()).decode("utf-8")
 
-    st.markdown(
-        f"""
-        <div style="display:table;margin-top:-20%;margin-left:20%;">
-            <img src="data:image/png;base64,{data}" width="100" height="150">
-        </div>
-        """,
-        unsafe_allow_html=True,
+  #  st.markdown(
+      #  f"""
+     #   <div style="display:table;margin-top:-20%;margin-left:20%;">
+     #       <img src="data:image/png;base64,{data}" width="100" height="150">
+     #   </div>
+    #    """,
+    #    unsafe_allow_html=True,
     )
 #col1, col2, col3 = st.columns([0.2, 5, 0.2]) 
 #col2.image(image, use_column_width=True)
