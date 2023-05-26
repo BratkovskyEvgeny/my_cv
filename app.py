@@ -8,7 +8,7 @@ with open("style.css") as f:
 image = Image.open('photo-round.png')
 
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns([0.2, 5, 0.2]) 
 col2.image(image, use_column_width=True)
 
 
@@ -25,17 +25,17 @@ col2.image(image, use_column_width=True)
 
 
 
-def img_to_bytes(img_path):
-    img_bytes = Path(img_path).read_bytes()
-    encoded = base64.b64encode(img_bytes).decode()
-    return encoded
-def img_to_html(img_path):
-    img_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
-      img_to_bytes(img_path)
-    )
-    return img_html
+#def img_to_bytes(img_path):
+    #img_bytes = Path(img_path).read_bytes()
+   # encoded = base64.b64encode(img_bytes).decode()
+   # return encoded
+#def img_to_html(img_path):
+    #img_html = "<img src='data:image/png;base64,{}' class='img-fluid'>".format(
+      #img_to_bytes(img_path)
+  #  )
+   # return img_html
 
-st.markdown(img_to_html('photo-round.png'), unsafe_allow_html=True)
+#st.markdown(img_to_html('photo-round.png'), unsafe_allow_html=True)
     
 
 
