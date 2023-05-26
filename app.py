@@ -18,8 +18,8 @@ st.title(':orange[Bratkovsky Evgeny]')
 
 st.markdown('## *About me*', unsafe_allow_html=True)
 st.info('''
-I'm a machine learning engineer at a bank. Basically, I'm like a pathologist, but doing autopsies on different data :). 
-I have a lot of experience working in banks in different positions and I have a good understanding of almost all banking business processes, which helps me a lot when I build models to develop the banking business.
+*I'm a machine learning engineer at a bank. Basically, I'm like a pathologist, but doing autopsies on different data*:). 
+*I have a lot of experience working in banks in different positions and I have a good understanding of almost all banking business processes, which helps me a lot when I build models to develop the banking business*.
 ''')
 
 
@@ -90,7 +90,7 @@ st.markdown('''
 - Defended MSc thesis on credit scoring models and algorithms based on neural networks.
 ''')
 
-txt('**Bachelor degree** (Finance and credit), *Belarusian State Economic University*, Belarus',
+txt('**Bachelor degree in Finance & credit**, *Belarusian State Economic University*, Belarus',
 '2009-2014')
 st.markdown('''
 - Average grade: `7` from `10`.
@@ -101,7 +101,7 @@ st.markdown('''
 ''')
 
 txt('**Business Analyst/Data Scientist**, Priorbank, Minsk, Belarus',
-'06.2021-06.2023')
+'06.2021 — 06.2023')
 st.markdown('''
 - Creating models for segmenting bank customers, predicting churn, scoring and many others.
 - Organised a Data Science course for bank staff as part of the bank's IT Academy.
@@ -110,7 +110,7 @@ st.markdown('''
 ''')
 
 txt('**Senior Internal Audit Specialist**, Belinvestbank, Minsk, Belarus',
-'04.2018-06.2021')
+'04.2018 — 06.2021')
 st.markdown('''
 - Audit of the business processes of the bank, improvement of the IT processes.
 ''')
@@ -124,12 +124,11 @@ st.markdown('''
 st.markdown('''
 ## Skills
 ''')
-txt3('Programming', '`Python`, `R`, `Linux`')
-txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
-txt3('Data visualization', '`matplotlib`, `seaborn`, `plotly`, `altair`, `ggplot2`')
-txt3('Machine Learning', '`scikit-learn`')
-txt3('Deep Learning', '`TensorFlow`')
-txt3('Web development', '`Flask`, `HTML`, `CSS`')
-txt3('Model deployment', '`streamlit`, `gradio`, `R Shiny`, `Heroku`, `AWS`, `Digital Ocean`')
+txt3('Programming', '`Python`, `Javascript`)
+txt3('Data processing/wrangling', '`SQL`, `Pandas`, `Numpy`')
+txt3('Data visualization', '`Apache Superset`,`Tableau`,`Matplotlib`, `Seaborn`, `Plotly`, `Altair`')
+txt3('Machine Learning', '`Scikit-learn`,`Catboost`,`XGBoost`,`Logistic Regression`, `Random Forest`,`DBSCAN and many others`')
+txt3('Deep Learning', '`TensorFlow`,`PyTorch`,`ANN`,`Computer Vision`, `NLP`')
+txt3('Model deployment', '`Streamlit`, `Gradio`,`Flask`')
 
 
