@@ -109,12 +109,12 @@ st.markdown('''
 - Creating models for segmenting bank customers, predicting churn, scoring and many others.
 - Organised a Data Science course for bank staff as part of the bank's IT Academy.
 - Implementation of MLOps methodology in the bank.
-- Data processing and transfer to cloud hosting was automated.
+- Automation of data processing and transfer to cloud data storage.
 ''')
 
 txt('**Senior Internal Audit Specialist**, Belinvestbank, Belarus','04.2018 — 06.2021')
 st.markdown('''
-- Audit of the business processes of the bank, improvement of the IT processes.
+- Audit of the business processes, improvement of the IT processes.
 ''')
 
 
