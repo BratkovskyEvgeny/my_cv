@@ -42,6 +42,9 @@ st.markdown("""
       <li class="nav-item">
         <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact with me</a>
+      </li>
     </ul>
   </div>
 </nav>
@@ -116,10 +119,6 @@ st.markdown('''
 ''')
 
 
-#st.markdown('''
-## *Skills*
-#''')
-#txt3('`Python`, `Javascript`,`SQL`,`Streamlit`,`Flask`,`AWS`, `TensorFlow`,`PyTorch`,`Docker`,`PL\SQL Developer`,`NLP`,`Computer Vision`, `Scoring models & many others`')
 
 st.markdown('''
 ## *Skills*
@@ -130,5 +129,22 @@ txt3('Data visualization', '`Apache Superset`,`Tableau`,`Matplotlib`, `Seaborn`,
 txt3('Machine Learning', '`Scikit-learn`,`Catboost`,`XGBoost`,`Logistic Regression`, `Random Forest`,`DBSCAN and many others`')
 txt3('Deep Learning', '`TensorFlow`,`PyTorch`,`ANN`,`Computer Vision`, `NLP`')
 txt3('Model deployment', '`Streamlit`, `Gradio`,`Flask`')
+
+
+
+st.markdown('''
+## *Contact with me*
+''')
+contact_form = """
+<form action="https://formsubmit.co/zhenyabratkovski5@gmail.com" method="POST">
+     <input type="hidden" name="_captcha" value="false">
+     <input type="text" name="name" placeholder="Your name" required>
+     <input type="email" name="email" placeholder="Your email" required>
+     <textarea name="message" placeholder="Your message here"></textarea>
+     <button type="submit">Send</button>
+</form>
+"""
+
+st.markdown(contact_form, unsafe_allow_html=True)
 
 
