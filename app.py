@@ -86,13 +86,13 @@ st.markdown('''
 ## *Education*
 ''')
 
-txt('**MSc Software Engineering**, *Belarusian State University of Informatics and Radioelectronics*, Belarus', '2020-2022')
+txt('**MSc Software Engineering**, *Belarusian State University of Informatics and Radioelectronics*, Belarus','2020-2022')
 st.markdown('''
 - Average grade: `9` from `10`
 - Defended MSc thesis on credit scoring models and algorithms based on neural networks.
 ''')
 
-txt('**Bachelor degree in Finance & credit**, *Belarusian State Economic University*, Belarus', '2009-2014')
+txt('**Bachelor degree in Finance & credit**, *Belarusian State Economic University*, Belarus','2009-2014')
 st.markdown('''
 - Average grade: `7` from `10`.
 ''')
