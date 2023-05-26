@@ -5,8 +5,8 @@ with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 image = Image.open('photo-round.png')
 st.image(image, width=200)
-st.title(':orange[Bratkovsky Evgeny]')
-st.title(':red[MSc Software Engineering]')
+st.title(':orange[Bratkovsky Evgeny], :orange[Data Scientist],:orange[MSc Software Engineering]')
+#st.title(':red[MSc Software Engineering]')
 #st.write('''
 # *Bratkovsky Evgeny*
 ## *MSc Software Engineering* 
