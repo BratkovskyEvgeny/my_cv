@@ -125,7 +125,7 @@ st.markdown('''
 txt3('Programming', '`Python`, `Javascript`')
 txt3('Data processing/wrangling', '`SQL`, `Pandas`, `Numpy`')
 txt3('Data visualization', '`Apache Superset`,`Tableau`,`Matplotlib`, `Seaborn`, `Plotly`, `Altair`')
-txt3('Machine Learning', '`Scikit-learn`,`Catboost`,`XGBoost`,`Logistic Regression`, `Random Forest`,`DBSCAN and many others`')
+txt3('Machine Learning', '`Catboost`,`XGBoost`,`Logistic Regression`, `Random Forest`,`DBSCAN and many others`')
 txt3('Deep Learning', '`TensorFlow`,`PyTorch`,`ANN`,`Computer Vision`, `NLP`')
 txt3('Model deployment', '`Streamlit`, `Gradio`,`Flask`')
 
