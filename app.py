@@ -8,8 +8,8 @@ with open("style.css") as f:
 image = Image.open('photo-round.png')
 
 
-col1, col2, col3 = st.columns([0.2, 5, 0.2]) 
-col2.image(image, use_column_width=True)
+#col1, col2, col3 = st.columns([0.2, 5, 0.2]) 
+#col2.image(image, use_column_width=True)
 
 
 def img_to_bytes(img_path):
