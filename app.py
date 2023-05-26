@@ -4,7 +4,12 @@ from PIL import Image
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 image = Image.open('photo-round.png')
-st.image(image, width=155)
+col1=st.columns(1)
+with col1:
+    st.image(image, width=155)
+    
+
+#st.image(image, width=155)
 #st.markdown("<h1 style='text-align: center; '>Bratkovsky Evgeny (Data Scientist, MSc Software Engineering)</h1>", unsafe_allow_html = True)
 st.title(':orange[Bratkovsky Evgeny]')
 #st.markdown('#:orange[Data Scientist],:orange[MSc Software Engineering]')
