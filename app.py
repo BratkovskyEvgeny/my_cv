@@ -86,7 +86,7 @@ def txt4(a, b, c):
 
 
 st.markdown('''
-## Education
+## *Education*
 ''')
 
 txt('**MSc Software Engineering**, Belarusian State University of Informatics and Radioelectronics, Belarus','2020-2022')
@@ -120,7 +120,7 @@ st.markdown('''
 
 
 st.markdown('''
-## Skills
+## *Skills*
 ''')
 txt3('Programming', '`Python`, `Javascript`')
 txt3('Data processing/wrangling', '`SQL`, `Pandas`, `Numpy`')
@@ -132,7 +132,7 @@ txt3('Model deployment', '`Streamlit`, `Gradio`,`Flask`')
 
 
 st.markdown('''
-## Contact with me
+## *Contact with me*
 ''')
 contact_form = """
 <form action="https://formsubmit.co/zhenyabratkovski5@gmail.com" method="POST">
