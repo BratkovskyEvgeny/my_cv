@@ -40,7 +40,7 @@ st.markdown("""
         <a class="nav-link" href="#education">Education</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#work-experience">Work Experience in IT</a>
+        <a class="nav-link" href="#work-experience">Work Experience</a>
       </li>
        <li class="nav-item">
         <a class="nav-link" href="#skills">Skills</a>
@@ -101,7 +101,7 @@ st.markdown('''
 ''')
 
 st.markdown('''
-## Work Experience in IT
+## Work Experience
 ''')
 
 txt('**Business Analyst/Data Scientist**, Priorbank, Belarus','06.2021 — 06.2023')
